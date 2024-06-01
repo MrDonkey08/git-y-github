@@ -1,4 +1,19 @@
-# Personal Access Token
+---
+layout: post
+title: Token de Acesso Personal
+author: Alan Yahir Juárez Rubio
+description: Guía para configurar el token de acceso personal
+
+categories:
+  - informatica
+  - github
+tags:
+  - config
+  - personal-access-token
+
+date: 2023-08-25 15:00:00
+last_modified_at: 2024-05-31
+---
 
 Un **personal access token** es una alternativa a la contraseña de **Github**. Es utilizada para poder hacer modificaciones a repositorios.
 
@@ -15,6 +30,14 @@ Un **personal access token** es una alternativa a la contraseña de **Github**. 
 
 Este nuevo **token** lo sustituiras por la contraseña para hacer modificaciones en tus repositorios.
 
+  <div style="page-break-after: always;"></div>
+
+---
+
 ## Referencias
 
-- [Documentación de GiHub](https://docs.github.com/es/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) (s.f.), _Administración de tokens de acceso personal_. Recuperado el 25 de agosto de 2023 de https://docs.github.com/es/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+- [Documentación de GiHub](https://docs.github.com/es/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+  (s.f.),
+  _Administración de tokens de acceso personal_.
+  Recuperado el 25 de agosto de 2023 de
+  <https://docs.github.com/es/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens>
