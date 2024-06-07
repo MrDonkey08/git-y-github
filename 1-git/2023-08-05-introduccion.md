@@ -13,7 +13,7 @@ tags:
   - binarios-en-git
 
 date: 2023-08-05 10:00:00
-last_modified_at: 2024-05-31
+last_updated: 2024-06-03 11:25:48
 
 mermaid:
   enabled: true
@@ -21,9 +21,11 @@ mermaid:
 
 toc:
   sidebar: right
+
+featured: true
 ---
 
-## Sistema de control de versiones
+## Sistema de Control de Versiones
 
 El **control de versiones** es la práctica de rastrear y gestionar archivos
 directorios y sus respectivos cambios.
@@ -95,13 +97,14 @@ que, al abrir con el _bloc de notas_ (o cualquier editor de texto plano),
 aparecen un montón de símbolos raros, lenguaje que entiende la máquina, pero
 nosotros no.
 
-> [!IMPORTANT]
+> ##### IMPORTANTE
 >
 > Git solo funciona de esta manera con **texto plano.** Si haces esto con un
 > **binario**, tal como un _archivo word_, _no te guardará las modificaciones_,
 > en cambio remplazará "la versión anterior" con la "versión actual"; esto impide
 > que ahorres espacio y que puedas tener un seguimiento tan eficaz tal como un
 > **texto plano**.
+{: .block-warning }
 
 En **git** lo ideal sería no trabajar con binarios, sino tenerlos alojados en
 otro servicio o servidor (e.g. Google Drive). Sin embargo, si te es

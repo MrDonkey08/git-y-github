@@ -12,46 +12,50 @@ tags:
   - ssh
 
 date: 2023-08-15 15:00:00
-last_modified_at: 2024-05-31
+last_updated: 2024-06-05 19:16:54
 ---
 
+## Generar Llaves
 
-## Generar llaves
-
-1. Ejecuta el sustituyéndolo por tu email:
+- Ejecuta el siguiente comando sustituyendo `"tu@email.com"` por tu email:
 
 ```shell
 ssh-keygen -t ed25519 -C "tu@email.com"
 ```
 
-**Note:**  Si estás usando un sistema legacy que no soporta Iel algoritmo Ed25519 algorithm, utiliza:
+> ##### NOTA
+>
+> Si estás usando un sistema legacy que no soporta Iel algoritmo Ed25519,
+> utiliza:
+>
+> ```shell
+>  ssh-keygen -t rsa -b 4096 -C "tu@email.com"
+> ```
+>
+{: .block-note }
 
 ```shell
- ssh-keygen -t rsa -b 4096 -C "tu@email.com"
+Introduce la ruta en donde se guardará la llave (/home/YOU/.ssh/ALGORITHM): [Press enter]
 ```
 
-```shell
-Introduce la ruta en donde se guardará la llave (/home/YOU/.ssh/ALGORITHM):[Press enter]
-```
+## Agregar tu Llave al ssh-agent
 
-## Agregar tu llave al ssh-agent
-
-1. Inicia el ssh-agent en segundo plano.
+- Inicia el ssh-agent en segundo plano
 
 ```shell
 eval "$(ssh-agent -s)"
 ```
 
-2. Agrega tu llave SSH privada
+- Agrega tu llave SSH privada
 
 ```shell
 ssh-add ~/.ssh/id_ed25519
 ```
 
-### macOS Sierra 10.12.2 o superior
+### macOS Sierra 10.12.2 o Superior
 
-2. Crea un archivo config en la ruta ~/.ssh
-   1. Insértale el siguiente contenido
+- Crea un archivo config en la ruta ~/.ssh
+  - Insértale el siguiente contenido
 
 ```shell
 Host *
@@ -60,7 +64,7 @@ Host *
   IdentityFile ~/.ssh/id_rsa
 ```
 
-3. Agrega tu llave SSH privada; en caso de error ejecuta sin el argumento `-K`
+- Agrega tu llave SSH privada; en caso de error ejecuta sin el argumento `-K`
 
 ```shell
 ssh-add -K ~/.ssh/id_rsa

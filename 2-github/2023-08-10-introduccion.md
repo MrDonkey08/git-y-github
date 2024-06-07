@@ -12,11 +12,15 @@ tags:
   - git
 
 date: 2023-08-10 11:00:00
-last_modified_at: 2024-05-31
+last_updated: 2024-06-05 19:16:29
+
+toc:
+  sidebar: right
 ---
 
 **Github** es una plataforma que permite alojar y compartir proyectos
-gratuitamenete. **Github** utiliza el **sistema de control de versiones** de **Git**
+gratuitamenete. **Github** utiliza el **sistema de control de versiones** de
+**Git**.
 
 **Github** es la plataforma más popular dentro de la **programación**, debido a
 que permite compartir el **código fuente** a la comunidad, trabajar
@@ -25,10 +29,14 @@ colaborativamente, tener un buen control y gestión de los archivos.
 ## Ventajas
 
 - Permite colaborar con otros desarrolladores en proyectos compartidos.
+
 - Ayuda a mantener un seguimiento detallado de los cambios en el proyecto.
+
 - Es una plataforma de libre acceso, lo que permite a cualquier desarrollador
   web trabajar en proyectos y colaborar con otros.
+
 - Permite crear proyectos privados y públicos.
+
 - Ofrece herramientas de desarrollo de software, como GitHub Pages, que permite
   crear sitios web estáticos.
 

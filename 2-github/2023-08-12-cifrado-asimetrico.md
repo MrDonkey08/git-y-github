@@ -13,7 +13,7 @@ tags:
   - llave-privada
 
 date: 2023-08-12 19:00:00
-last_modified_at: 2024-05-31
+last_updated: 2024-06-05 19:16:38
 ---
 
 El **cífrado asimétrico** o **cífrado de llaves públicas y privadas** es aquel
@@ -21,9 +21,9 @@ que, por medio de internet, le permite al **emisor** mandar un **mensaje**
 (texto, imagen, audio...) al **destinatario** de manera que él y solo él pueda
 entender el **mensaje**, pueda descifrarlo.
 
-## Cómo funciona: Llaves públicas y privadas
+## Cómo funciona: Llaves públicas y Privadas
 
-> [!NOTE]
+> ##### NOTA
 >
 > **Analogía**
 >
@@ -31,6 +31,7 @@ entender el **mensaje**, pueda descifrarlo.
 >
 > - **Candado** a la **llave pública** (algoritmo de encriptación)
 > - **Llave** a la **llave privada** (algoritmo de desencriptación)
+{: .block-note }
 
 Antes que nada es necesario establecer ciertos puntos:
 

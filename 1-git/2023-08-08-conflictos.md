@@ -9,7 +9,7 @@ tags:
   - merge
   - conflicto
 date: 2023-08-08 18:00:00
-last_modified_at: 2024-05-31
+last_updated: 2024-05-31
 
 toc:
   sidebar: right
@@ -34,7 +34,7 @@ Cuando **git** detecta un **conflicto**, modifica el archivo de la siguiente man
 ...
 ```
 
-## Cómo solucionar un conflicto
+## Cómo Solucionar un Conflicto
 
 Para resolver este **conflicto** bastaría con editar el archivo, eliminar lo
 que no quieras y agregar o modificar contenido si es necesario. Al final
